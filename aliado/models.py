@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Aliado(models.Model):
-    id = models.IntegerField(max_length=11, primary_key=True)
+    id = models.IntegerField( primary_key=True)
     
     nombre = models.CharField(
         max_length=100,

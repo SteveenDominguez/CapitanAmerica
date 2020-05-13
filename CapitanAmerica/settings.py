@@ -38,14 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
-<<<<<<< HEAD
-<<<<<<< HEAD
     'aliado',
-=======
->>>>>>> 8649ef87c47176f282f34b94322eca1ca60a2068
-=======
-    'aliado',
->>>>>>> patrocinador
+    'patrocinador',
 ]
 
 MIDDLEWARE = [

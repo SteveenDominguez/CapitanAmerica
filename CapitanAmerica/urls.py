@@ -20,5 +20,6 @@ urlpatterns = [
     path('',include(('home.urls','home'),namespace='home')),
     path('admin/', admin.site.urls),
     path('aliado/',include(('aliado.urls','aliado'),namespace='aliado')),
+    path('patrocinador/',include(('patrocinador.urls','patrocinador'),namespace='patrocinador')),
 
 ]
